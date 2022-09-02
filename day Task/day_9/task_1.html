@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>web page</title>
+    
+    <link href="./task_1.css" rel="Stylesheet">
+</head>
+<body>
+    <div class="squre">
+    <div class="squ1"></div>
+    <div class="top">
+        <canvas id="top" >
+        </canvas>
+        </div>
+    <div class="squ2"></div>
+    <div class="left">
+        <canvas id="left" >
+        </canvas>
+        </div>
+        <p> Day task 9</p>
+    <div class="squ3"></div>
+    <div class="right">
+        <canvas id="right" >
+        </canvas>
+        </div>
+    <div class="squ4"></div>        
+      <div class="bottam">
+            <canvas id="bottam" >
+            </canvas>
+            </div>
+            
+    </div>
+    
+</body>
+<script>
+    var c = document.getElementById("top");
+    var ctx = c.getContext("2d");
+    ctx.beginPath();
+    ctx.arc(95,50,40,0,2*Math.PI);
+    ctx.stroke();
+    ctx.strokestyle='#ff0000';
+    var c = document.getElementById("left");
+    var ctx = c.getContext("2d");
+    ctx.beginPath();
+    ctx.arc(95,50,40,0,2*Math.PI);
+    ctx.stroke();
+    ctx.strokestyle='#008000';
+    var c = document.getElementById("right");
+    var ctx = c.getContext("2d");
+    ctx.beginPath();
+    ctx.arc(95,50,40,0,2*Math.PI);
+    ctx.stroke();
+    ctx.strokestyle='#ff0000';
+    var c = document.getElementById("bottam");
+    var ctx = c.getContext("2d");
+    ctx.beginPath();
+    ctx.arc(95,50,40,0,2*Math.PI);
+    ctx.stroke();
+    ctx.strokestyle='#ff0000';
+    </script> 
+</html>
