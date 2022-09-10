@@ -1,0 +1,143 @@
+.contianer1 .con1{
+    width: 100px;
+    height: 100px;
+    border: 1px solid blue;
+    background-color: red;
+    margin: auto;
+
+}
+.contianer31{
+     width: 100%;
+     height: 600px;
+     border: 1px solid  red;
+     top: 150%;
+    
+}
+.contianer32{
+    width: 90px;
+    height: 500px;
+    border:1px solid green;
+
+}
+.contianer3{
+    display:grid;
+    grid-template-columns: 200px 250px 200px;
+    justify-content: space-between;
+
+}
+
+.con3{
+    width: 300px;
+    height: 300px;
+    color: black;
+}
+#con1
+{
+    background-color: red;
+}
+#con3{
+      background-color: blue;
+}
+#con2{
+    background-color: yellow;
+
+}
+
+
+.contianer1{
+    justify-content:space-between;
+    flex-direction: row;
+    width: 100%;
+    height: 150px;
+    border: 1px solid blue;
+    display: flex;
+}
+.contianer2
+{
+    display: flex;
+    justify-content: space-between;
+    
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    width: 100%;
+    height: 150px;
+    border: 1px solid green;
+}
+
+  .con2_1
+  {
+    width: 100px;
+    height: 150px;
+    background-color: lightblue;
+  }
+  .con2_2
+  {
+    width: 250px;
+    height: 30px;
+    background-color: green;
+    
+  }
+  .con2_3
+  {
+    width: 50px;
+    height: 50px;
+    background-color:yellow;
+    
+  }
+  .con2_4
+  {
+    background-color:blue;
+    height: 100px; 
+    width: 30px;
+  }
+  .con2_5
+  {
+    background-color:salmon;
+    height: 50px; 
+    width: 120px;
+  }
+  .contianer3{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 1px solid red;
+    margin-top: 50px;
+    width: 100%;
+    height: 700px;
+  }
+  .con3_1
+  {
+    width: 400px;
+    height: 300px;
+    background-color: red;
+    color: aliceblue;
+  }
+  .con3_2
+  {
+    background-color: yellow;
+    color:white;
+    width: 400px;
+    height: 300px;
+  }
+  .con3_3
+  {
+    background-color: lightblue;
+    color: aliceblue;
+    width: 400px;
+    height: 300px;
+  }
+  .con3_4
+  {
+    width: 600px;
+    height: 200px;
+    color: aliceblue;
+    background-color: green;
+  }
+  .con3_5
+  {
+    width: 600px;
+    height: 200px;
+    color: aliceblue;
+    background-color: blue;
+  }

@@ -1,0 +1,31 @@
+.image
+{
+    position: relative;
+    color:coral;
+    
+    
+}
+.top-right{
+    position: absolute;
+    top: 10px;
+    right: 3px;
+    color: aliceblue;
+}
+.logo
+{
+    position: absolute;
+    top: 50px;
+    align-content: center;
+}
+.Content
+{
+    display: grid;
+    grid-template-columns: 500px 250px 300px;
+    
+}
+.content-items
+{
+    box-shadow: 0 4px 8px 0 rgba(245, 242, 242, 0.2);
+    width: 100px;
+    height:20px;
+}
