@@ -1,31 +1,65 @@
 .image
 {
-    position: relative;
-    color:coral;
-    
-    
+  vertical-align: -105px;
 }
-.top-right{
-    position: absolute;
-    top: 10px;
-    right: 3px;
-    color: aliceblue;
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
 }
-.logo
-{
-    position: absolute;
-    top: 50px;
-    align-content: center;
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 70%;
+  height: 50%;
+  transform: translate(-50%, -50%);
 }
-.Content
-{
-    display: grid;
-    grid-template-columns: 500px 250px 300px;
-    
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 50px;
+  cursor: pointer;
 }
-.content-items
-{
-    box-shadow: 0 4px 8px 0 rgba(245, 242, 242, 0.2);
-    width: 100px;
-    height:20px;
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Float four columns side by side */
+.column {
+  
+float: left;
+  width: 30%;
+  padding: 15px;
+}
+
+/* Remove extra left and right margins, due to padding */
+/*.row {margin: 0 -5px;}*/
+
+/* Clear floats after the columns */
+.row {
+ /* content: "";*/
+   display: table;
+ 
+
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(243, 241, 241, 0.932);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+  
+
 }

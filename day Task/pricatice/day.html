@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 15%;
+  height:100px;
+  margin-left: 8%;
+  
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+
+
+/* Responsive columns */
+
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  text-align: left;
+  background-color: white;
+}
+/* Float four columns side by side */
+.column1 {
+  float: left;
+  width: 55%;
+  margin-left: 20px;
+  padding: 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row1 {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+
+
+/* Style the counter cards */
+.card1 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+
+  background-color:white;
+  align-items: left;
+  
+}
+
+.column2 {
+  float: left;
+  width: 55%;
+  margin-left: 332px;
+  top: 50px;
+  padding:  15px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row2 {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row2:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/* Style the counter cards */
+.card2 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color:white;
+  align-items: flex-start;
+}
+.Button
+{
+    margin-left: 580px;
+}
+.img_1
+{
+    border-radius: 10px;
+}
+@media only screen and (max-width: 600px) {
+    .row
+    {
+        visibility: hidden;
+    }
+    .column
+    {
+        visibility: hidden;
+
+    }
+    .card
+    {
+        visibility: hidden;
+    }
+.column1
+{
+    width: 50% ;
+}
+.text-algin
+{
+    width: 50%;
+    height: 30%;
+}
+.Button
+{
+    visibility: hidden;
+}
+}
+.heading-bar
+{
+    background-color: red;
+    color: white;
+    height: 50px;
+    text-align:  right ;
+}
+.head-button
+{
+    cursor: pointer;
+}
+</style>
+</head>
+<body>
+
+<div class="heading-bar">
+    <div class="head-button">
+        Login &nbsp; Create Account
+    </div>
+   
+    
+</div>
+
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <h3>Fliters</h3>
+      <p>select Location</p>
+      <p>Cusion</p>
+    <input type="checkbox" id="North indian" name="North indian" value="North indian">
+  <label for="vehicle1"> North indian</label><br>
+  <input type="checkbox" id="Sounth indian" name="Sounth indian" value="Bike">
+  <label for="vehicle1"> Sounth indian</label><br>
+  <input type="checkbox" id="Chaines" name="Chaines" value="Bike">
+  <label for="vehicle1"> Chaines</label><br>
+  <input type="checkbox" id="Fast Food" name="Fast Food" value="Bike">
+  <label for="vehicle1"> Fast Food</label><br>
+  <input type="checkbox" id="Street Food" name="Street Food" value="Bike">
+  <label for="vehicle1"> Street Food</label><br>
+  <p>Cost for two </p> 
+  <input type="checkbox" id="less than" name="less than" value="Bike">
+  <label for="vehicle1"> less than  &#8377;500</label><br>
+  <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+  <label for="vehicle1"> &#8377;500 to &#8377;1000</label><br>
+  <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+  <label for="vehicle1"> &#8377;1000 to &#8377;1500</label><br>
+  <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+  <label for="vehicle1"> &#8377;1500 to &#8377;2000</label><br>
+  <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+  <label for="vehicle1">  &#8377;2000+</label><br>
+  <p>sort</p>
+  <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+  <label for="vehicle1">  Low to high</label><br>
+  <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+  <label for="vehicle1">  High to Low</label><br>
+    </div>
+  </div>
+</div>
+<div class="row1">
+    <div class="column1">
+      <div class="card1">
+        <div class="text-align" > <img src="C:\Users\ADMIN\Documents\GitHub\mern_stack\day Task\day_10\Break fast.jpg" width="15%" height="15%" style="border-radius: 10px;"/>  The Big chil</h1></div>
+       <hr>
+       <p>Cuisines:Bakery</p>
+       <p>Cost for two : &#8377;700</p>
+      </div>
+    </div>
+</div>
+    
+<div class="row2">
+    <div class="column2">
+      <div class="card2">
+        <h3>Card 2</h3>
+        <p>Some text</p>
+        <p>Some text</p>
+      </div>
+    </div>
+</div>
+
+<div class=" Button">
+    <button> &#60; </button>&nbsp; <button>1</button>&nbsp; <button>2</button>&nbsp; <button>3</button> &nbsp; <button> 4</button>&nbsp; <button> 5</button>&nbsp; <button> ></button>
+
+
+</div>
+
+  
+
+</body>
+</html>

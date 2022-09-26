@@ -1,0 +1,11 @@
+.box
+{
+    border-style: solid;
+    border-color: palevioletred;
+    border-width: 50px;
+
+}
+*body
+{
+    background-color: aqua;
+}
