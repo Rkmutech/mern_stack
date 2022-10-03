@@ -1,123 +1,105 @@
-* {
-    box-sizing: border-box;
-  }
+*
+{
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.heading_Bar
+{
+  background-color: red;
+  width: 100%;
+  color: white;
+ 
+  height: 30px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align:  right;
+}
+.wrap
+{
+  padding-left: 60px;
   
-  body {
-    font-family: Arial, Helvetica, sans-serif;
-  }
+}
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 20%;
+  padding:  10px;
+}
+
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  text-align: left;
+  background-color:white;
+  font-weight: 100;
+  font-size: medium;
+}
+.column1 {
+  float: left;
+  width: 55%;
+  margin-left: 20px;
+  padding: 10px;
+  display: flexbox;
+  flex-wrap: wrap;
+}
+
+
+
+
+.card1 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+
+  background-color:white;
+  align-items: left;
   
-  /* Float four columns side by side */
-  .column {
+}
+
+.column2 {
+  float: left;
+  width: 55%;
+  margin-left: 332px;
+  top: 50px;
+  padding:  15px;
+}
+
+
+
+
+
+.card2 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color:white;
+  align-items: flex-start;
+}
+.Tab_phone_row
+{
+  visibility: hidden;
+}
+@media all and (max-width: 699px)
+{
+  .column{
+    visibility: hidden;
+  }
+  .row1
+  {
+    visibility: hidden;
+  }
+  .wrap
+  {
     float: left;
-    width: 15%;
-    height:100px;
-    margin-left: 8%;
-    
   }
-  
-  /* Remove extra left and right margins, due to padding */
-  .row {margin: 0 -5px;}
-  
-  /* Clear floats after the columns */
-  
-  
-  /* Responsive columns */
-  
-  
-  /* Style the counter cards */
-  .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    padding: 10px;
-    text-align: left;
-    background-color: white;
+}
+@media all and (max-width: 699px)
+{
+  .Tab_phone_row{
+    visibility:visible;
   }
-  /* Float four columns side by side */
-  .column1 {
-    float: left;
-    width: 55%;
-    margin-left: 20px;
-    padding: 10px;
-  }
+}
+
   
-  /* Remove extra left and right margins, due to padding */
-  .row1 {margin: 0 -5px;}
-  
-  /* Clear floats after the columns */
-  .row1:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  
-  /* Responsive columns */
-  
-  
-  /* Style the counter cards */
-  .card1 {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    padding: 16px;
-  
-    background-color:white;
-    align-items: left;
-    
-  }
-  
-  .column2 {
-    float: left;
-    width: 55%;
-    margin-left: 332px;
-    top: 50px;
-    padding:  15px;
-  }
-  
-  /* Remove extra left and right margins, due to padding */
-  .row2 {margin: 0 -5px;}
-  
-  /* Clear floats after the columns */
-  .row2:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  
-  
-  /* Style the counter cards */
-  .card2 {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    padding: 16px;
-    text-align: center;
-    background-color:white;
-    align-items: flex-start;
-  }
-  .Button
-  {
-      margin-left: 580px;
-  }
-  .img_1
-  {
-      border-radius: 10px;
-  }
-  @media only screen and (max-width: 600px) {
-      .row
-      {
-          visibility: hidden;
-      }
-      .column
-      {
-          visibility: hidden;
-  
-      }
-      .card
-      {
-          visibility: hidden;
-      }
-  .column1
-  {
-      width: 50% ;
-  }
-  .text-algin
-  {
-      width: 50%;
-      height: 30%;
-  }
-  }
+
