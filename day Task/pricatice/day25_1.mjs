@@ -30,3 +30,4 @@ function functional()
     console.log(b);
 }
 functional();
+

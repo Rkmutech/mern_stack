@@ -8,8 +8,40 @@
 </head>
 <body>
     <script>
-        var a=2+true+true*4+true;
-        console.log(a);
+       /* var a=2+true+true*4+true;
+        console.log(a); */
+        function getGrade(score) {
+    var grade;
+    // Write your code here
+    if(score>25 && score<=30)
+    {
+        grade=A;
+    }
+    else if(score>20 && score<=25)
+    {
+        grade=B;
+    }
+    else if(score>15 && score<=20)
+    {
+        grade=C;
+    }
+    else if(score>10 && score<=15)
+    {
+        grade=D;
+    }
+    else if(score>5 && score<=10)
+    {
+        grade=E;
+    }
+    else
+    {
+        grade=F;
+    }
+    
+    return grade;
+}
+var grade=getGrade(11);
+console.log(grade);
     </script>
     
 </body>

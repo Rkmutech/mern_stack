@@ -29,8 +29,8 @@ class res_mang
 ];
 };
 
-var result=res_list.filter(city_filter);
-console.log(result);
+//var result=res_list.filter(city_filter);
+//console.log(result);
 function city_filter(res_list)
 {
     return city=='Trichy';

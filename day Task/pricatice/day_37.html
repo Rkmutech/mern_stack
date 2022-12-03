@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 37</title>
+    <script src=""></script>
+</head>
+<body>
+    <script>
+       // const array=["Ram","Programmin","Music","hope"];
+        //scarth push method in javascript
+       // function push(arr,element)
+       // {
+          //  arr[arr.length]=element;
+       // }
+      //  console.log('Before inserting Array'+array);
+       // push(array,"Rkmutech");
+        //console.log('Afetr the inserting the Array'+array);
+        //pop method in javascript
+      //  let fruits=["Apple","kiwi","grape","Guava"];
+       // function pop(arr)
+       // {
+           // let newarr=[];
+          //  for(var i=0;i<arr.length;i++)
+           // {
+                
+           // }
+       // }
+        //unshift method in javascript
+        var fruits=["apple","Grape","Guava","orange"];
+        function unshift(fruits,element)
+        {
+            for(let i=fruits.length;i<0;i--)
+            {
+                fruits[i]=fruits[i-1];
+                if(i==0)
+                {
+                    fruits[i]=element;
+                }
+            }
+            console.log("Before unshift array"+fruits);
+            unshift(fruits,kiwi);
+            console.log("After unshift array"+fruits);
+        }
+    </script>
+    
+</body>
+</html>l

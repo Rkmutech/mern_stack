@@ -4,16 +4,133 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>web page</title>
+    <style>
+        .squre{
+            border: 1px solid black;
+            width: 500px;
+            height: 500px;
+            margin-left: 400px;
+        }
+        .squ1{
+            position: relative;
+            margin-top: -1px;
+            left: 1px;
+            border: 1px solid red;
+            height: 50px;
+            width: 50px;
+        }
+        .squ2{
+            position: relative;
+            margin-top: -144px;
+            margin-left: 448px;
+            border: 1px solid red;
+            height: 50px;
+            width: 50px;
+        }
+        .squ3
+        {
+            position: relative;
+            margin-left: 2px;
+            margin-top: 167px;
+           border: 1px solid red;
+            height: 50px;
+            width: 50px;
+        }
+        .squ4
+        {
+            margin-top: 95px;
+            margin-left: 447px;
+            position: relative;
+            border: 1px solid red;
+            height: 50px;
+            width: 50px;
+        }
+        .top{
+            position: relative;
+           margin-top: -61px;
+            margin-left: 130px;
+        }
+        .left{
+            position: relative;
+            margin-top: 135px;
+            margin-left: -55px;
+            color: green;
+        }
+        .right{
+            position: relative;
+            margin-top: -300px;
+            margin-left: 365px;
+
+        }
+        .bottam
+        {
+            position: relative;
+            margin-top: -90px;
+            margin-left: 150px;
+
+        }
+        p{
+            position: relative;
+            align-content: center;
+            margin-left: 200px;
+            margin-top: -80px;
+            color: red;
+        }
+
+    </style>
 </head>
 <body>
-    <article>
-        The tag represents the completion progress of a task.
-
-            Tip: Always add the  tag for best accessibility practices!
-    </article>
-    <section>
-
-    </section>
+    <div class="squre">
+    <div class="squ1"></div>
+    <div class="top">
+        <canvas id="top" >
+        </canvas>
+        </div>
+    <div class="squ2"></div>
+    <div class="left">
+        <canvas id="left" >
+        </canvas>
+        </div>
+        <p> Day task 9</p>
+    <div class="squ3"></div>
+    <div class="right">
+        <canvas id="right" >
+        </canvas>
+        </div>
+    <div class="squ4"></div>        
+      <div class="bottam">
+            <canvas id="bottam" >
+            </canvas>
+            </div>
+            
+    </div>
+    
 </body>
+<script>
+    var c = document.getElementById("top");
+    var ctx = c.getContext("2d");
+    ctx.beginPath();
+    ctx.arc(95,50,40,0,2*Math.PI);
+    ctx.stroke();
+    ctx.strokestyle='#ff0000';
+    var c = document.getElementById("left");
+    var ctx = c.getContext("2d");
+    ctx.beginPath();
+    ctx.arc(95,50,40,0,2*Math.PI);
+    ctx.stroke();
+    ctx.strokestyle='#008000';
+    var c = document.getElementById("right");
+    var ctx = c.getContext("2d");
+    ctx.beginPath();
+    ctx.arc(95,50,40,0,2*Math.PI);
+    ctx.stroke();
+    ctx.strokestyle='#ff0000';
+    var c = document.getElementById("bottam");
+    var ctx = c.getContext("2d");
+    ctx.beginPath();
+    ctx.arc(95,50,40,0,2*Math.PI);
+    ctx.stroke();
+    ctx.strokestyle='#ff0000';
+    </script> 
 </html>

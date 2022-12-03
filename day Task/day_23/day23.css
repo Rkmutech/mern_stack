@@ -1,11 +1,18 @@
-.box
-{
-    border-style: solid;
-    border-color: palevioletred;
-    border-width: 50px;
-
+.mainbox{
+    border: 2px solid red;
+    height: 400px;
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    overflow-y: auto;
 }
-*body
-{
-    background-color: aqua;
+.mainbox >div{
+    flex: 1;
+    border: 2px solid dodgerblue;
+    padding: 0.5rem;
+    min-width: 200px;
+}
+.addressbox{
+    padding: 0.5rem;
+    border: 2px solid green;
 }
